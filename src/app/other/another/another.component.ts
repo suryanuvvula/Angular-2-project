@@ -6,10 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./another.component.css']
 })
 export class AnotherComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+       
+        stringInterpolation = "This is my String interpolation";
 }
